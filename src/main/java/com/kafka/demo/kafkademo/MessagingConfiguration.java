@@ -18,5 +18,4 @@ public class MessagingConfiguration {
         logger.info("Received event: {}, from partition: '{}'", event.getEvent(), partition);
     }
 
-
 }

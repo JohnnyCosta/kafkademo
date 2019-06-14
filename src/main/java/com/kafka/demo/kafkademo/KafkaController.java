@@ -16,7 +16,6 @@ public class KafkaController {
 
     private final Logger logger = LoggerFactory.getLogger(KafkaController.class);
 
-
     private MessageChannel channel;
 
     public KafkaController(ProducerChannel channel) {

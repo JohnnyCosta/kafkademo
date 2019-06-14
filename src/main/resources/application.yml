@@ -8,11 +8,10 @@ spring:
         binder:
           brokers: localhost:9092
       bindings:
-        input:
-          destination: eventsstream
-          group: myGroupStream
         messageChannel:
           destination: eventsstream
           content-type: application/json
+
         subscribableChannel:
           destination: eventsstream
+          group: myGroupStream
